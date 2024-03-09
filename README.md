@@ -1,6 +1,6 @@
 # Sentiment Analysis With Python's NLTK Library
 ### Overview
-Using NLTK's Pre Trained Sentiment Analyzer: VADER, This project aims to determine the sentiments behind a review and assign a value to them based on how positive, or negative the review is. Using this information we can analyze the overall public opinion of the business, and look into ways it can be improved.
+Using NLTK's Pre Trained Sentiment Analyzer: VADER, This project aims to determine the sentiments behind a review and assign a value to them based on how positive or negative the review is. Using this information we can analyze the overall public opinion of the business, and look into ways it can be improved.
 
 ### Requirements
 This project was developed using Jupyter Notebook. To execute the notebook, please install Jupyter Notebook first.
@@ -14,14 +14,17 @@ pip install -r requirements.txt
 <a href="https://www.kaggle.com/datasets/d4rklucif3r/restaurant-reviews?rvi=1">The dataset is included in this repository but can also be found here</a>
 
 ### Test Results
-This project was tested using data from an Excel Workbook, "reviews.xlsx"
-
+This project uses data from an Excel Workbook called "reviews.xlsx", and generates a csv file containing each review with their sentiment polarity. A negative value for sentiment polarity indicates a negative review, whereas a positive value indicates a positive review.
+<p align="center">
 <img src="https://github.com/MJHendricks/sentiment-analysis/assets/65013192/c576e870-3b00-4da6-aabf-b888363b77dd" height="300px">
+</p>
 
-The resturant seems to have 66% positive reviews. The Sentiment Analyzer determined that the following was the most positive review, with a sentiment polarity of 1.0 (the highest posible value):
+According to the Analyzer, The resturant seems to have 66% positive reviews. The Sentiment Analyzer determined that the following was the most positive review, with a sentiment polarity of 1.0 (the highest posible value):
+
 - "DELICIOUS!!"
 
 Whereas within the 34% negative reviews, the review determined to be the most negative, with a sentiment polarity of -0.855:
+
 - "RUDE & INCONSIDERATE MANAGEMENT."
 
 The most negative review is related to the management of the resturant, further investigation into mentions of management in reviews revealed the following:
