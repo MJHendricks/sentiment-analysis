@@ -16,8 +16,9 @@ pip install -r requirements.txt
 ### Test Results
 This project uses data from an Excel Workbook called "reviews.xlsx", and generates a csv file containing each review with their sentiment polarity. A negative value for sentiment polarity indicates a negative review, whereas a positive value indicates a positive review.
 <p align="center">
-<img src="https://github.com/MJHendricks/sentiment-analysis/assets/65013192/c576e870-3b00-4da6-aabf-b888363b77dd" height="300px">
+<img src="https://github.com/MJHendricks/sentiment-analysis/assets/65013192/7c1eab82-7101-4494-90df-12c522355001" height="400px", width= "500px">
 </p>
+
 
 According to the Analyzer, The resturant seems to have 66% positive reviews. The Sentiment Analyzer determined that the following was the most positive review, with a sentiment polarity of 1.0 (the highest posible value):
 
